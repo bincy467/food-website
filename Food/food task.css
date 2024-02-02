@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    width: 100%;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: white;
+    width: 100%;
+    padding: 5px;
+    position: absolute;
+        
+}
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+header a{
+    text-decoration: none;
+    color: green;
+    text-align: right;
+    margin-left: 50px;
+    font-size: 35px;
+}
+header .i{
+    padding-left: 180px;
+}
+main .main{
+    display:flex;
+    padding: 60px;
+   
+    
+}
+  .main .img1{
+   border-radius: 50px ; 
+    
+}
+.main .button1{
+ width: 190px;
+ height: 40px;
+background-color: rgb(11, 225, 79);
+color:whitesmoke;
+border:1px solid white;
+font-size:15px;
+margin-bottom: 8px;
+
+}
+.main .text1{
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-left: -40px;
+    padding-top: 5px;
+}
+ 
+.main .button2{
+    background-color: rgb(255, 47, 0);
+    width: 130px;
+    height: 35px;
+    border:1px solid white;
+    color: white;
+    margin: 15px;
+    margin-right:50px;
+}
+.bottom{
+    display: flex;
+    padding-left: 80px;
+    font-family: tahoma;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 30px;
+    margin-top: -70px;
+    border-bottom: 1px solid grey;
+}
+.bottom .text2{
+    padding-left: 50px;
+}
+.bottom .text3{
+    padding-left: 100px;
+}
+.bottom .text4{
+    padding-left: 100px;
+}
+.main2{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    padding-left:-10px;
+    font-family: tahoma;
+}
+.main2 .button3{
+    background-color: rgb(26, 224, 26);
+    color: white;
+    border: none;
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.main2 .text5{
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.gallery{
+   display: flex;
+   flex-wrap: wrap;
+  padding: 100px;
+  margin-right: 300px;
+  padding-left: 600px;
+  padding-top:20px;
+  gap: 1px;
+  
+  
+   
+}
+.gallery .picture1{
+    display: flex;
+   flex-wrap: wrap;
+   flex: 25%;
+    max-width: 50%;
+    max-height: 50%;
+    flex-direction:row;
+    padding: 4px; 
+
+}
+.gallery .picture2{
+    display: flex;
+    flex-wrap: wrap;
+   flex: 25%;
+   max-width:30%;
+   max-height:30%;
+   flex-direction: row;
+    padding: 4px; 
+}
+.gallery .picture3{
+    display: flex;
+    flex-wrap: wrap;
+   flex: 25%;
+   max-width:20%;
+   max-height:20%;
+   flex-direction: row;
+    padding: 4px; 
+
+    
+}
+.gallery .picture4{
+    display: flex;
+    flex: 50%;
+    max-width: 25%;
+    max-height:50%;
+    flex-direction: row;
+    padding: 4px;
+}
+.gallery .picture5{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 25%;
+    max-width: 25%;
+    max-height:50%;
+    flex-direction: row;
+    padding: 4px;
+}
+.gallery .picture6{
+    display: flex;
+    flex: 25%;
+    max-width: 25%;
+    max-height:50%;
+    flex-direction: row;
+    padding: 4px;
+    gap: 5px;
+}
+
+.footer{
+    background-color: orangered;
+    color: white;
+    display: flex;
+    padding: 50px;
+    height: 200px;
+    gap: 300px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+.footer .foot1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 50px;
+} 
+.footer .foot2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer .foot3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.footer .foot4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer2{
+    background-color: orangered;
+    color: white;
+    display: flex;
+    padding-left: 50px;
+    gap: 30px;
+    padding-bottom:20px;
+    height: 30px;
+    
+}
+.footer3{
+    padding-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+ .footer4{
+    text-align: center;
+    font-size: 15px;
+ }
